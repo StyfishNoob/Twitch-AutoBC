@@ -1,2 +1,3 @@
 ## Twitch-AutoBonusChest
-配布先：
+chrome extension
+>URL：

@@ -1,2 +1,0 @@
-# Twitch-AutoBC
-Chrome Extension 

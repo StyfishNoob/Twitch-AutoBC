@@ -1,3 +1,3 @@
 ## Twitch-AutoBonusChest
 Chrome Extension
->URL：
+>WebStore URL：

@@ -1,3 +1,3 @@
 ## Twitch-AutoBonusChest
-chrome extension
+Chrome Extension
 >URL：

@@ -1,0 +1,25 @@
+body{
+  min-width: 250px;
+}
+
+ .chest img{
+   width: 10%;
+}
+
+div.time1{
+  background-color: #99FF99;
+  border-radius: 7px;
+  padding: 8px;
+}
+
+ #title{
+   font-size: 1.3em;
+ }
+
+ #twitterURL{
+   padding-left: 173px;
+ }
+
+ div.clickchest{
+   vertical-align: 50em;
+ }

@@ -23,3 +23,15 @@ div.time1{
  div.clickchest{
    vertical-align: 50em;
  }
+
+ #Twitter{
+   position: absolute;
+
+   top: 13px;
+   right: 20px;
+ }
+
+ #TwitterIcon{
+   width: 30px;
+   height: 30px;
+ }

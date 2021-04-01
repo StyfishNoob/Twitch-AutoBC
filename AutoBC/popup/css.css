@@ -1,12 +1,13 @@
 body{
   min-width: 250px;
+  min-height: 107px;
 }
 
  .chest img{
    width: 10%;
 }
 
-div.time1{
+div.description{
   background-color: #99FF99;
   border-radius: 7px;
   padding: 8px;
@@ -34,4 +35,9 @@ div.time1{
  #TwitterIcon{
    width: 30px;
    height: 30px;
+ }
+
+ .lang_class{
+   padding-top: 3px;
+   text-align: right;
  }

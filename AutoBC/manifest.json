@@ -1,8 +1,8 @@
 {
   "manifest_version":2,
   "name":"Twitch Auto BonusChest",
-  "version":"1.4",
-  "description":"Twitch Auto BonusChest",
+  "version":"1.8",
+  "description":"自動でボーナスチェストをクリックする拡張機能です。",
 
   "icons": {
     "16": "img/icon.png",
@@ -10,7 +10,7 @@
     "128": "img/icon.png"
   },
 
-  "permissions": ["tabs"],
+  "permissions": ["tabs","storage"],
 
   "content_scripts":[
     {

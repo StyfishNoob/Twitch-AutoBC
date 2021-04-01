@@ -5,13 +5,9 @@
  var i = 0;
  var tabs_id = false;
 
- window.onload = function(){
-   i = 0;
-   min = 0;
-   sec = 0;
-   chrome.browserAction.setBadgeText({"text": String()});
-   console.log("window.onloadが読み込まれました");
- }
+ chrome.runtime.onInstalled.addListener(function(){
+   chrome.storage.local.set({key_lang: en});
+ })
 
 var inter = setInterval(function(){
   chrome.tabs.query( {'url': "https://www.twitch.tv/*"}, function(tabs){
@@ -31,7 +27,7 @@ var inter = setInterval(function(){
         timeF();
         i += 1;
       }
-      
+
     })
   })
 }, 1000)

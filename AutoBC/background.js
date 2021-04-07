@@ -9,6 +9,14 @@
    chrome.storage.local.set({key_lang: en});
  })
 
+ window.onload = function(){
+   i = 0;
+   min = 0;
+   sec = 0;
+   chrome.browserAction.setBadgeText({"text": String()});
+   console.log("window.onloadが読み込まれました");
+ }
+
 var inter = setInterval(function(){
   chrome.tabs.query( {'url': "https://www.twitch.tv/*"}, function(tabs){
 

@@ -1,5 +1,5 @@
 'use strict';
- const tw_class = document.getElementsByClassName("tw-button tw-button--success");
+ const tw_class = document.getElementsByClassName("ScCoreButton-sc-1qn4ixc-0 ScCoreButtonSuccess-sc-1qn4ixc-5 VGQNd");
  var item = false;
 
  const tw_function = function(){
